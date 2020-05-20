@@ -1,6 +1,6 @@
 <template>
     <div>
-        FizBuzz page!!
+        {{ computedFizBuzz }}
     </div>
 </template>
 
@@ -10,6 +10,11 @@ export default {
     data: () => ({
         fizBuzz: []
     }),
+    computed: {
+        computedFizBuzz() {
+            return this.fizBuzz.join(', ')
+        }
+    },
     methods: {
         fetchFizBuzzData() {
             axios.get('/fizbuzz').then(({ data }) => {
