@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/fizbuzz', 'FizController@index');
+Route::get('/fizbuzz', 'FizBuzzController@index');

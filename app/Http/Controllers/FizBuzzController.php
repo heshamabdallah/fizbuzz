@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class FizzController extends Controller {
+class FizBuzzController extends Controller {
 
     /**
      * Get FizzBuzz data.
