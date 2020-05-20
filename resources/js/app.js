@@ -1,9 +1,10 @@
 require('./bootstrap')
 import Vue from 'vue'
+import FizBuzz from './components/FizBuzz'
 
 const app = new Vue({
     el: '#app',
-    created() {
-        console.log('started!!')
+    components: {
+        FizBuzz
     }
 })

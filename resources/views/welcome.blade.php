@@ -9,7 +9,10 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-        <div id="app"></div>
+        <div id="app">
+            <fiz-buzz />
+        </div>
+
         <script src="{{ mix('/js/app.js') }}"></script>
     </body>
 </html>
